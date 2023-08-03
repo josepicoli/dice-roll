@@ -1,8 +1,8 @@
 function roll() {
     const dice = window.document.getElementById("image")
-    const random = Math.floor(Math.random() * 6) + 1
+    const diceNumber = rollDice(6)
 
-    switch(random) {
+    switch(diceNumber) {
         case 1:
             dice.src = "imgs/dice-1.png"
             break
@@ -25,4 +25,31 @@ function roll() {
             console.log("ERRO")
             break
     }
+}
+
+function rollDice(D = 6) {
+    switch(D) {
+        case 2:
+            return ramdomNumber(1, 2)
+            break
+        case 4:
+            return ramdomNumber(1, 4)
+            break
+        case 6:
+            return ramdomNumber(1, 6)
+            break
+        case 10:
+            return ramdomNumber(1, 6)
+            break
+        case 10:
+            return ramdomNumber(1, 6)
+            break
+        default:
+            return console.log("invalid side numbers")
+            break
+    }
+}
+
+function ramdomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min
 }
