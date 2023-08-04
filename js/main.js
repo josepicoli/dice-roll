@@ -41,7 +41,7 @@ function rollDice(D = 6) {
         case 10:
             return ramdomNumber(1, 6)
             break
-        case 10:
+        case 20:
             return ramdomNumber(1, 6)
             break
         default:
