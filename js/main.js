@@ -1,3 +1,6 @@
+const button = window.document.getElementById("button")
+button.addEventListener("click", roll)
+
 function roll() {
     const dice = window.document.getElementById("image")
     const diceNumber = rollDice(6)
