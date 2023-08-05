@@ -43,6 +43,15 @@ section {
     font: bold 20px helvetica;
     border-radius: 15px;
     margin-top: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #b67609;
+}
+
+.button:active {
+    background-color: #F39C0B;
 }
 
 footer {
