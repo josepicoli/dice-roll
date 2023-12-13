@@ -42,10 +42,10 @@ function rollDice(D = 6) {
             return ramdomNumber(1, 6)
             break
         case 10:
-            return ramdomNumber(1, 6)
+            return ramdomNumber(1, 10)
             break
         case 20:
-            return ramdomNumber(1, 6)
+            return ramdomNumber(1, 20)
             break
         default:
             return console.log("invalid side numbers")
