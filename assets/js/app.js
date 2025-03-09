@@ -3,7 +3,7 @@ button.addEventListener("click", roll)
 
 function roll() {
     const dice = window.document.getElementById("image")
-    const diceNumber = rollDice(6)
+    const diceNumber = ramdomNumber(1, 6)
 
     switch(diceNumber) {
         case 1:
@@ -26,29 +26,6 @@ function roll() {
             break
         default:
             console.log("ERRO")
-            break
-    }
-}
-
-function rollDice(D = 6) {
-    switch(D) {
-        case 2:
-            return ramdomNumber(1, 2)
-            break
-        case 4:
-            return ramdomNumber(1, 4)
-            break
-        case 6:
-            return ramdomNumber(1, 6)
-            break
-        case 10:
-            return ramdomNumber(1, 10)
-            break
-        case 20:
-            return ramdomNumber(1, 20)
-            break
-        default:
-            return console.log("invalid side numbers")
             break
     }
 }
