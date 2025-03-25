@@ -11,53 +11,55 @@ body {
 
 header {
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-section {
-    width: 300px;
-    height: 300px;
+div {
+    width: 340px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #004b7c;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #004b7c;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342);
 }
 
-.image {
-    width: 200px;
-    height: 200px;
+#image {
+    width: 250px;
+    height: 250px;
     border: solid 7px black;
     border-radius: 40px;
 }
 
-.button {
-    width: 150px; height: 15%;
+#button {
+    width: 200px;
+    height: 100px;
     background-color: #F39C0B;
     color: black;
     border: solid 4px black;
     font: bold 20px helvetica;
-    border-radius: 15px;
-    margin-top: 5%;
+    border-radius: 40px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
-.button:hover {
+#button:hover {
     background-color: #b67609;
 }
 
-.button:active {
+#button:active {
     background-color: #f3b346;
 }
 
 footer {
-    margin-top: 1%;
+    margin-top: 20px;
     text-align: center;
     font-style: italic;
 }
